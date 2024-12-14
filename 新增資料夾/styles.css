@@ -1,0 +1,124 @@
+[InternetShortcut]
+URL=https://github.com/jerry123401/jerry/blob/main/%E6%96%B0%E5%A2%9E%E8%B3%87%E6%96%99%E5%A4%BE/styles.css
+/* 全局樣式 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1, h2 {
+    color: #0056b3;
+}
+
+/* 導航欄樣式 */
+.navbar {
+    background-color: #0056b3;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* 英雄區樣式 */
+.hero {
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(to right, #e0f7fa, #ffffff);
+}
+
+.hero h2 {
+    font-size: 2rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* 區段樣式 */
+.section {
+    padding: 2rem;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.section p {
+    line-height: 1.6;
+}
+
+/* 清單樣式 */
+ul {
+    padding-left: 1.5rem;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* 圖庫樣式 */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.gallery-item {
+    text-align: center;
+    width: 200px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+/* 頁腳樣式 */
+.footer {
+    text-align: center;
+    background-color: #0056b3;
+    color: white;
+    padding: 1rem;
+    margin-top: 2rem;
+}
